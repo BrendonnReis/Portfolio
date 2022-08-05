@@ -30,17 +30,20 @@ body{
 .section1{
     margin:auto;
     padding:40px 10px 10px 10px;
-    background-color:var(--colorbackground);
     max-width:300px;
 }
 .logoico{
-    width:130px;
-    height:68px;
+    width:11vw;
+    height:13vh;
 }
 .primeiraimagem{
     position:absolute;
-    left:600px;
-    top:50px;
+    left:43vw;
+    top:10vh;
+   
+    float:right;
+    width:50vw;
+    height: 120vh;
 }
 h1{
 padding:10px 0px 3px 5px;
@@ -124,7 +127,7 @@ display:inline-block;
 .textbox{
     position:absolute;
     top:13%;
-    left:100%;
+    left:44vw;
     box-shadow:-1px -1px 0px 0px rgba(0, 0, 0, 0.315);
     text-align:center;
     border-radius: 45px;
@@ -133,5 +136,11 @@ display:inline-block;
     padding:0px;
     margin-left:15px;
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.397), rgba(255, 255, 255, 0.062));
+}
+.textbox h2{
+    width:100%;
+}
+.textbox p{
+    width:100%;
 }
 
