@@ -127,20 +127,57 @@ display:inline-block;
 .textbox{
     position:absolute;
     top:13%;
-    left:44vw;
+    left:45.5vw;
     box-shadow:-1px -1px 0px 0px rgba(0, 0, 0, 0.315);
-    text-align:center;
-    border-radius: 45px;
-    width:35vw;
-    height:53vh;
+    text-align:justify;
+    border-radius: 37px;
+    width:39vw;
+    height:61vh;
     padding:0px;
     margin-left:15px;
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.397), rgba(255, 255, 255, 0.062));
+
 }
 .textbox h2{
+    
     width:100%;
+    font-size: 1.9em;
+    font-weight: 800;
+   
+    color:white;
+    padding-left: 50px;
+}
+.textbox h2 strong{
+    color:var(--colorh1);
+    
 }
 .textbox p{
+    color:white;
+    font-size:1.3em;
+    padding-left: 50px;
     width:100%;
 }
+.textbox p strong{
+    color:var(--colorh1);
+}
 
+.textaside{
+    position:absolute;
+    left:53vw;
+    top:77vh;
+    font-size:1.3em;
+
+    
+}
+.textaside h2{
+    color:white;
+    font-weight: bolder;
+    padding:0px;
+}
+.textaside img{
+    width:48px;
+    height: 28px;
+    position:absolute;
+    left:190px;
+    top:100px;
+}
